@@ -1,0 +1,32 @@
+s="abcdefghjkhs"
+#str_name[start:end:step]
+s=s+'0'
+print(s[5])
+print(s[1:5])
+print(s[:])
+print(s[-3])
+print(s[7:1:-1])
+#string methods
+print(s.upper())         #or s=s.upper()
+print(s.lower())
+print(s.swapcase())
+print(s.title())
+print(s.capitalize())
+print(s.isalnum())
+print(s.isalpha())
+print(s.isupper())
+print(s.islower())
+print(s.isspace())
+print(s.index('d'))
+print(s.rindex('h'))
+print(s.find('h'))
+print(s.rfind('h'))
+print(s.count('h'))
+print(s.startswith('abc'))
+print(s.startswith('cd ',6,9))
+print(s.endswith('k'))
+print(s.split("c"))
+print(s.partition('b'))
+a=['1','2','3']
+a=" ".join(a)
+print(a,type(a),a[0])
